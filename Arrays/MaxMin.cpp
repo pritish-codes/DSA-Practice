@@ -3,7 +3,7 @@
 using namespace std;
 
 int getMax(int num[], int n) {
-  int max = INT_FAST8_MIN;
+  int max = INT_FAST8_MIN; //Minimum possible number in cpp
 
   for (int i = 0; i < n; i++) {
     if (num[i] > max) {
@@ -14,7 +14,7 @@ int getMax(int num[], int n) {
 }
 
 int getMin(int num[], int n) {
-  int min = INT_FAST8_MAX;
+  int min = INT_FAST8_MAX; //maximum possible number in cpp
   for (int i = 0; i < n; i++) {
     if (num[i] < min) {
       min = num[i];
