@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int factorial(int n){
+long int factorial(int n){
     if(n==0){
         return 1;
     }
@@ -10,7 +10,7 @@ int factorial(int n){
     }
 }
 int main(){
-    int ans,n;
+    long int ans,n;
     cout<<"Enter n"<<endl;
     cin>>n;
     ans=factorial(n);
