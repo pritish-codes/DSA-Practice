@@ -15,6 +15,6 @@ void fun(int A[],int n){
 }
 
 int main(){
-    int A[5]={2,4,6,7,20};
+    int A[5]={2,4,6,7,2890};
     fun(A,5);
 }
