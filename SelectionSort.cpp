@@ -22,7 +22,7 @@ void selectionSort(int array[], int size) {
 
     // put min at the correct position
     swap(&array[min_idx], &array[step]);
-    int
+    
   }
 }
 
